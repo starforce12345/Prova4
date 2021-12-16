@@ -1,0 +1,10 @@
+package Prova.Back.DTO;
+
+public class ProdutoDTO {
+
+	private Long id;
+	private String nome;
+	private Double quantidade;
+	private Double precovenda;
+	private Double precocompra;
+}

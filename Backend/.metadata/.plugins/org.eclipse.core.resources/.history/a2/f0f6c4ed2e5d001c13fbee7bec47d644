@@ -1,0 +1,5 @@
+package Prova.Back.Configuration;
+
+public class SecurityConfig {
+
+}

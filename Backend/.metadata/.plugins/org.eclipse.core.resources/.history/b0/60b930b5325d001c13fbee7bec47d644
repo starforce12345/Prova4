@@ -1,0 +1,61 @@
+package Prova.Back.Model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Produto {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private Double quantidade;
+	private Double precovenda;
+	private Double precocompra;
+	
+	public Produto () {
+	}
+	
+	public Produto(Long id, Double quantidade, Double precovenda, Double precocompra) {
+		this.id = id;
+		this.quantidade = quantidade;
+		this.precovenda = precovenda;
+		this.precocompra = precocompra;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Double getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(Double quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public Double getPrecovenda() {
+		return precovenda;
+	}
+
+	public void setPrecovenda(Double precovenda) {
+		this.precovenda = precovenda;
+	}
+
+	public Double getPrecocompra() {
+		return precocompra;
+	}
+
+	public void setPrecocompra(Double precocompra) {
+		this.precocompra = precocompra;
+	}
+}

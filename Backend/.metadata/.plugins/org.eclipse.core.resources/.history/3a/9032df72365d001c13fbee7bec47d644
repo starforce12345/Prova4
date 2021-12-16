@@ -1,0 +1,9 @@
+package Prova.Back.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import Prova.Back.Model.Tipo;
+
+public interface TipoRepository extends JpaRepository <Tipo, Long> {
+
+}

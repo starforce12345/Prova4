@@ -1,0 +1,9 @@
+package Prova.Back.DTO;
+
+public class TipoDTO {
+	
+	private Long id;
+	private String nome;
+	
+	private ProdutoDTO produto;
+}

@@ -1,0 +1,26 @@
+package Prova.Back.DTO;
+
+import Prova.Back.Model.Estoque;
+
+public class EstoqueDTO {
+	
+	private Long id;
+	private String nome;
+	private ProdutoDTO produto;
+	
+	public EstoqueDTO (){
+	}
+
+	public EstoqueDTO(Long id, String nome, ProdutoDTO produto) {
+		this.id = id;
+		this.nome = nome;
+		this.produto = produto;
+	}
+	
+	public EstoqueDTO(Estoque entity) {
+		id = entity.getId();
+		nome = entity.getNome();
+		produto = new ProdutoDTO(entity.getProduto());
+	}
+	
+}

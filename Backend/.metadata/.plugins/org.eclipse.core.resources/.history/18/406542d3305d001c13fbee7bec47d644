@@ -1,0 +1,14 @@
+package Prova.Back.Model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table
+@Entity
+public class Produto {
+
+	private Long id;
+	private String nome;
+	private String email;
+	private String senha;
+}

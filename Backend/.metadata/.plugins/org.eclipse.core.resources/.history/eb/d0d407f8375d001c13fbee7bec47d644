@@ -1,0 +1,28 @@
+package Prova.Back.DTO;
+
+import Prova.Back.Model.Tipo;
+
+public class TipoDTO {
+	
+	private Long id;
+	private String nome;
+	
+	private ProdutoDTO produto;
+	
+	public TipoDTO () {
+	}
+
+	public TipoDTO(Long id, String nome, ProdutoDTO produto) {
+		this.id = id;
+		this.nome = nome;
+		this.produto = produto;
+	}
+	
+	public TipoDTO(Tipo entity) {
+		id = id;
+		nome = nome;
+		produto = produto;
+	}
+	
+	
+}

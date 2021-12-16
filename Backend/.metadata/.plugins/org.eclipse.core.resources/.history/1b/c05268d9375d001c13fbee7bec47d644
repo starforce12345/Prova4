@@ -1,0 +1,10 @@
+package Prova.Back.DTO;
+
+public class FornecedorDTO {
+
+	private Long id;
+	private String nome;
+	private String local;
+	
+	private ProdutoDTO produto;
+}

@@ -1,0 +1,5 @@
+package Prova.Back;
+
+public interface ProdutoRepository {
+
+}

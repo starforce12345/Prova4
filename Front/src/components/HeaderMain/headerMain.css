@@ -1,0 +1,55 @@
+header {
+    background-color: #046e5d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.logo h1 {
+    font-family: Heebo;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-New button{
+    font-size: 1.2rem;
+    font-family: Heebo;
+    font-weight: 700;
+    background-color: #046e5d;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-New button:hover {
+    transition: 0.2s;
+    background-color: #49b6a4;
+}
+
+.fields {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.2rem;
+
+    padding-left: 15px;
+}
+
+input {
+    height: 35px;
+}

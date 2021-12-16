@@ -1,0 +1,5 @@
+package Prova.Back.DTO;
+
+public class EstoqueDTO {
+
+}
